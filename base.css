@@ -21,6 +21,11 @@ body {
     display: flex;
     justify-content: center;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--fonteTitulo);
+    color: var(--azulDetalhes);
+}
+
 
 .wrapper {
     width: 1200px;
@@ -38,6 +43,29 @@ body {
     background-color: var(--verdeSuave);
     padding: 10px 20px 0px;
 }
+.menu ul{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.menu ul li{
+    background-color:var(--azulClaro);
+    color: var(--azulDetalhes);
+    text-decoration: none;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: var(--fonteTitulo);
+    font-weight: 600;
+}
+.menu ul li:hover{
+    background-color: var(--cinzaClaro);
+}
+.menu a{
+    color: var(--azulDetalhes);
+    text-decoration: none;
+min-width: 100%;
+}
 .header {
     background-color: var(--azulDetalhes);
     min-height: 150px;
@@ -52,7 +80,79 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+.content .dados{
+    display: flex;
+    justify-content: space-between;
+}
+.content .dados ul{
+ padding-left: 0;
+}
+.content .dados ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.content .dados ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content .form .form-content{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.content .form h3{
+ text-transform: capitalize;
+}
+.content .form label{
+    display: block;
+
+
+}
+.content .form input{
+    width: 275px;
+}
+.content .form textarea{
+    height: 50px;
+    width: 275px;
+}
+.content .form .buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 84px;
+}
+.content .form .buttons button{
+    margin: 4px;
+    padding: 6px 14px;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: var(--azulDetalhes);
+    color: var(--branco);
+    border-radius: 4px;
+}
+
+.content table{
+    margin: 0 auto;
+    min-width: 500px;
+   background-color: var(--azulDetalhes);
+}
+.content table th{
+    background-color: var(--verdeSuave);
+    color: var(--azulDetalhes);
+}
+.content table td{
+    background-color: var(--cinzaClaro);
+}
 .footer {
     background-color:var(--azulClaro);
-    min-height: 150px;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 50px;
+    height: 100px;
 }
+.footer img{
+    height: 50px
+}
+
+
+

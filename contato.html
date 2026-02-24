@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="sobre.html">
+                    <li>Sobre</li>
+                </a>
+                <a href="horario.html">
+                    <li>Horário</li>
+                </a>
+                <a href="contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./assets/imagem 4.jpeg" alt="banner da pagina inicial">
+
+            </div>
+
+            <div class="content">
+                <h1>Dados para Contato</h1>
+                <div class="dados">
+                    <ul>
+                        <li><a href="tel:+5511988887777" target="_blank" rel="noopener noreferrer"> <strong>Telefone</strong>: (11)
+                                98888-7777</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5511988887777&text&type=phone_number&app_absent=0"
+                                target="_blank" rel="noopener noreferrer"><strong> WhatsApp:</strong> (11) 98888-7777</a></li>
+                        <li><a href="mailto:contato@menteequilibrio.com"><strong>Email:</strong>  contato@menteequilibrio.com</a></li>
+                        <li><a href="www.menteequilibrio.com"><strong> Site:</strong> www.menteequilibrio.com</a></li>
+                        <li><strong>Endereço:</strong> Rua das Flores, 123 – Centro – São Paulo/SP</li>
+                    </ul>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6709.390923728407!2d-46.58245370720729!3d-23.5209420435586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f24cdd575df%3A0x53d8bcce98bf10cf!2sR.%20das%20Fl%C3%B4res%2C%20123%20-%20Parque%20Vila%20Maria%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2009876-543!5e0!3m2!1spt-BR!2sbr!4v1770938915805!5m2!1spt-BR!2sbr"
+                        width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <form class="form" action="">
+                    <h3>entre em contato conosco</h3>
+                    <div class="form-content">
+                        <div>
+                            <label for="name">Nome completo</label>
+                            <input type="text" name="name">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone">Telefone</label>
+                            <input type="tel" name="tel" id="">
+                        </div>
+                    </div>
+                    <div class="form-content">
+                        <div>
+                            <label for="subject">Assunto</label>
+                            <input type="text" name="subject">
+                        </div>
+                        <div>
+                            <label for="message">Mensagem</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="reset">limpar campo</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+
+
+            <div class="footer">
+                <img src="./assets/whatsapp.png" alt="logo do whatsapp">
+                <img src="./assets/facebook.png" alt="logo do facebook">
+                <img src="./assets/instagram.png" alt="loo do instagram">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
